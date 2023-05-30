@@ -1,0 +1,27 @@
+.cont{
+    width: 300px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+
+.cont:nth-child(2){
+    height: 450px;
+    margin-top: -35px;
+}
+
+.round{
+    position: relative;
+    top: -20px;
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255,162,0);
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}

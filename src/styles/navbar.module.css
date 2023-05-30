@@ -1,0 +1,12 @@
+.logo {
+  background-image: url("https://www.transportsimple.com/redesign/images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+}
+
+.active{
+  color: #518BFA;
+}
