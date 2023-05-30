@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployed Link 
+https://transportsimple.netlify.app
+
 # Pages :
 
 ## Homepage 
@@ -17,6 +20,3 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![home](https://res.cloudinary.com/dddnxiqpq/image/upload/v1685466523/h4_woghod.png)
 
 
-
-## Deployed Link 
-https://transportsimple.netlify.app
