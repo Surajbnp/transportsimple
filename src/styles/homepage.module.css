@@ -79,7 +79,7 @@ span{
 .industry{
     width: 100%;
     height: 100vh;
-    border: 1px solid red;
+    background-color: #FFF8EB;
 }
 
 .cardContainer{
@@ -91,7 +91,52 @@ span{
     margin-top: 60px;
 }
 
+/* for about section */
 
+.about{
+ border: 1px solid red;
+ width: 100%;
+ height: 100vh;
+}
+
+.about > div:nth-child(1){
+    width: 100%;
+    height: 40vh;
+    background-color: #518BFA;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.whiteTxt{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.aboutPng{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.aboutPng > div{
+    width: 20%;
+    height: 20vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.aboutPng > div img{
+    object-fit: cover;
+}
 
 
 
@@ -100,6 +145,7 @@ span{
 @media only screen and (max-width: 768px) {
     .home{
         flex-direction: column;
+        height: fit-content;
     }
 
     .home > div{
@@ -117,6 +163,7 @@ span{
 
     .feature {
         flex-direction: column;
+        height: fit-content;
     }
 
     .feature > div{

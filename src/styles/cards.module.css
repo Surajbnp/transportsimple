@@ -3,6 +3,7 @@
     height: 400px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
+    background-color: white;
 }
 
 .cont:nth-child(2){
@@ -24,4 +25,25 @@
     font-size: 18px;
     font-weight: 700;
     color: white;
+}
+
+.head{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.icon{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icon > div{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #FFF8EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

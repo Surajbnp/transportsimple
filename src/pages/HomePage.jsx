@@ -75,7 +75,7 @@ const HomePage = () => {
       {/* for industry section */}
 
       <Box id="Industry" className={styles.industry}>
-        <Flex justify={'center'}>
+        <Flex justify={"center"}>
           <Box
             w={"25%"}
             textAlign={"center"}
@@ -88,9 +88,71 @@ const HomePage = () => {
           </Box>
         </Flex>
         <Box className={styles.cardContainer}>
-           <Cards n={'01'} />
-           <Cards n={'02'}/>
-           <Cards n={'03'} />
+          <Cards n={"01"} heading={"We will your Tech partner"} />
+          <Cards n={"02"} heading={"Request a Free Trail"} />
+          <Cards n={"03"} heading={"24x7 Team Support"} />
+        </Box>
+      </Box>
+
+      {/* about section */}
+      <Box id="About" className={styles.about}>
+        <Box>
+          <Text className={styles.whiteTxt}>
+            Be more efficient and profitable with TransportSimple
+          </Text>
+          <Box
+            w={"50%"}
+            m={"auto"}
+            fontWeight={300}
+            fontSize={"18px"}
+            letterSpacing={"2px"}
+            p={5}
+            color={"white"}
+          >
+            We offer solution to streamline operations and accounts, resulting
+            in enhanced productivity and increased profits, scaliblity and ease
+            in daily operations. We have been building a solution to
+            revolutionise the logistics industry globally.
+          </Box>
+          <Box>
+            <Button
+              background={"#FFC500"}
+              color={"white"}
+              fontSize={"14px"}
+              letterSpacing={"2px"}
+            >
+              Book a Demo
+            </Button>
+          </Box>
+        </Box>
+
+        <Text
+          mt={5}
+          fontWeight={600}
+          fontSize={"20px"}
+          letterSpacing={"2px"}
+          textTransform={"uppercase"}
+        >
+          Benifit of Working With <span>US</span>
+        </Text>
+
+        <Box className={styles.aboutPng}>
+          <Flex>
+            <img src="https://360degreecloud.com/wp-content/uploads/2021/11/banner-image.png" alt="png" />
+            <Text>Industry Experts</Text>
+          </Flex>
+          <Flex>
+            <img src="https://cdn-icons-png.flaticon.com/512/2961/2961321.png" alt="png" />
+            <Text>Top Developers</Text>
+          </Flex>
+          <Flex>
+            <img src="https://360degreecloud.com/wp-content/uploads/2021/11/banner-image.png" alt="png" />
+            <Text>Industry Experts</Text>
+          </Flex>
+          <Flex>
+            <img src="https://360degreecloud.com/wp-content/uploads/2021/11/banner-image.png" alt="png" />
+            <Text>Industry Experts</Text>
+          </Flex>
         </Box>
       </Box>
     </Box>

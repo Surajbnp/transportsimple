@@ -54,7 +54,7 @@ export default function Navbar() {
           <HStack spacing={8} alignItems={"center"}>
             <Box className={styles.logo}></Box>
           </HStack>
-          <HStack as={"nav"} spacing={14} display={{ base: "none", md: "flex" }}>
+          <HStack as={"nav"} cursor={'pointer'} spacing={14} display={{ base: "none", md: "flex" }}>
             {Links.map((link) => (
               <ScrollLink
                 to={link}
