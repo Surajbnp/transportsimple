@@ -101,7 +101,7 @@ const HomePage = () => {
             Be more efficient and profitable with TransportSimple
           </Text>
           <Box
-            w={"50%"}
+            w={{base : '100%', md : "50%"}}
             m={"auto"}
             fontWeight={300}
             fontSize={"18px"}
@@ -127,7 +127,7 @@ const HomePage = () => {
         </Box>
 
         <Text
-          mt={5}
+          mt={10}
           fontWeight={600}
           fontSize={"20px"}
           letterSpacing={"2px"}
@@ -138,23 +138,43 @@ const HomePage = () => {
 
         <Box className={styles.aboutPng}>
           <Flex>
-            <img src="https://360degreecloud.com/wp-content/uploads/2021/11/banner-image.png" alt="png" />
+            <Box
+              backgroundImage={
+                "https://360degreecloud.com/wp-content/uploads/2021/11/banner-image.png"
+              }
+            ></Box>
             <Text>Industry Experts</Text>
           </Flex>
           <Flex>
-            <img src="https://cdn-icons-png.flaticon.com/512/2961/2961321.png" alt="png" />
+            <Box
+              backgroundImage={
+                "https://cdn-icons-png.flaticon.com/512/2961/2961321.png"
+              }
+            ></Box>
             <Text>Top Developers</Text>
           </Flex>
           <Flex>
-            <img src="https://360degreecloud.com/wp-content/uploads/2021/11/banner-image.png" alt="png" />
+            <Box
+              backgroundImage={
+                "https://360degreecloud.com/wp-content/uploads/2021/11/banner-image.png"
+              }
+            ></Box>
             <Text>Industry Experts</Text>
           </Flex>
           <Flex>
-            <img src="https://360degreecloud.com/wp-content/uploads/2021/11/banner-image.png" alt="png" />
+            <Box
+              backgroundImage={
+                "https://360degreecloud.com/wp-content/uploads/2021/11/banner-image.png"
+              }
+            ></Box>
             <Text>Industry Experts</Text>
           </Flex>
         </Box>
       </Box>
+
+      {/* contact section */}
+
+      
     </Box>
   );
 };
